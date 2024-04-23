@@ -1,0 +1,108 @@
+@font-face {
+    font-family: Inter-Bold;
+    src: url(../social-links-profile-main/assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family: Inter-Regular;
+    src: url(../social-links-profile-main/assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family: Inter-SemiBold;
+    src: url(../social-links-profile-main/assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: inter;
+    src: url(../social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.container{
+    min-width: 320px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+
+.perfil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    -o-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.cabecalho h2{
+    color: hsl(0, 0%, 100%);
+    padding: 5px;
+    font-family: inter;
+}
+
+.cabecalho h3{
+    color: hsl(75, 94%, 57%);
+    font-family: Inter-Bold;
+    font-size: 12px;
+    padding: 3px;
+
+}
+
+.cabecalho p{
+    color: white;
+    padding: 10px;
+    font-family: Inter-Regular;
+    font-size: 10px;
+}
+
+.links{
+    font-size: 14px;
+    padding: 10px;
+}
+
+.rede{
+    background-color: hsl(0, 0%, 20%);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+
+a{
+    color: white;
+    font-family: Inter-Bold;
+}
+
+.rede:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+
+
