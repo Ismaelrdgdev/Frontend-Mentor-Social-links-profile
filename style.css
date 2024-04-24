@@ -1,19 +1,19 @@
 @font-face {
     font-family: Inter-Bold;
-    src: url(../social-links-profile-main/fonts/static/Inter-Bold.ttf);
+    src: url(../fonts/static/Inter-Bold.ttf);
 }
 @font-face {
     font-family: Inter-Regular;
-    src: url(../social-links-profile-main/fonts/static/Inter-Regular.ttf);
+    src: url(../fonts/static/Inter-Regular.ttf);
 }
 @font-face {
     font-family: Inter-SemiBold;
-    src: url(../social-links-profile-main/fonts/static/Inter-SemiBold.ttf);
+    src: url(../fonts/static/Inter-SemiBold.ttf);
 }
 
 @font-face {
     font-family: inter;
-    src: url(../social-links-profile-main/fonts/Inter-VariableFont_slnt\,wght.ttf);
+    src: url(../fonts/Inter-VariableFont_slnt\,wght.ttf);
 }
 
 *{
